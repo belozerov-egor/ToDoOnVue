@@ -28,6 +28,9 @@ export default {
   padding: 20px 0;
   background-color: lightgray;
   font-size: 20px;
+  @media screen and (max-width: 750px) {
+    max-width: 360px;
+  }
   .tasks{
     width: 80%;
     background-color: #fff;
