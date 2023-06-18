@@ -2,7 +2,7 @@
 
 
   <div class="addForm">
-    <input type="text" v-model="newTaskTitle" placeholder="Add title new task">
+    <input type="text" v-model="newTaskTitle" placeholder="Add title new task"  @keyup.enter="addTask">
     <MyButton @click='addTask'>Add</MyButton>
     <!-- <button @click="addTask">Add</button> -->
   </div>

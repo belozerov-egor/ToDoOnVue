@@ -1,5 +1,6 @@
 {
   "name": "todo",
+  "homepage": "https://belozerov-egor.github.io/ToDoOnVue",
   "private": true,
   "version": "0.0.0",
   "type": "module",

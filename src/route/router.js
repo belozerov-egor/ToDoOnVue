@@ -4,7 +4,7 @@ import TodoBlock from "../components/TodoBlock.vue";
 
 const routes = [
     {
-        path: '/',
+        path: '/ToDoOnVue',
         component: HomePage
     },
     {
